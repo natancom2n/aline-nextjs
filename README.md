@@ -15,12 +15,7 @@ $npm run dev
 
 
 
-Default colors:
 
-Azul #16dfdf
-Roxo #7c2ae8
-Rosa #fe66c3
-Amarelo #ffd602
 
 
 

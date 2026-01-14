@@ -11,4 +11,4 @@ RUN addgroup -g 1001 app && adduser -G app -u 1001 -D app
 USER app
 
 # Mantém o container ativo
-CMD ["sh"]
+CMD ["sh", "-c", "cd /app/landingpage && npm run dev"]

@@ -24,7 +24,7 @@ export function Hero(){
             <p className="lg:text-lg text-center">Descubra o mundo lúdico da professora Aline Vicenti e suas palestras para educadores.</p>
               <a
               href="#"
-              className="bg-fuchsia-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center gap-2 mx-auto w-fit"
+              className="bg-fuchsia-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center gap-2 mx-auto w-fit hover:scale-110 duration-300"
               >
                 <WhatsappLogoIcon className='w-10 h-10'/>
                 Contato via WhatsApp
@@ -35,7 +35,7 @@ export function Hero(){
                     src={tomTom}
                     alt='Tom tom cat image'
                     quality={100}
-                    className='object-fill'
+                    className='object-fill hover:scale-110 duration-300'
                   />
                 </div>
               </div>
